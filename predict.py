@@ -25,8 +25,3 @@ def path_img_predict(model,path):
 
 if __name__ == "__main__":
     path_img_predict(sys.argv[1],sys.argv[2])
-    
-    
-
-model = load_model("CNN_Mnist.h5")
-print(model.summary())
